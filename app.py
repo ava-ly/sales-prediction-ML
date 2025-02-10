@@ -10,7 +10,7 @@ st.title("Advertising Data Analysis & Sales Prediction")
 
 # Load Data
 st.header("Dataset Overview")
-data = pd.read_csv("../data/advertising.csv")
+data = pd.read_csv("./data/advertising.csv")
 st.write(data.head())
 
 # Check for missing values
